@@ -18,11 +18,12 @@ r2 = Rectangle()
 r2.set_params(6, 7)
 print(r2)
 r3 = r
+r3.set_params(2,3)
 print(r3)
-
+#
 print()
 x = [ r, r2, r3 ]
-
+#
 #y = x.copy()
 from copy import deepcopy
 y = deepcopy(x)
@@ -33,4 +34,4 @@ x[1].set_params(8, 9)
 print('after assigning 8 by 9 to r2')
 print(x)
 print(y)
-
+#
