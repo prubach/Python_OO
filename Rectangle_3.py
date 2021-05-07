@@ -20,3 +20,5 @@ r.a = 10
 r.__a = 8
 print(r)
 print('__a in r is: ' + str(r.get_a()))
+print('r.__a in is: ' + str(r.__a))
+print('r.a in is: ' + str(r.a))
