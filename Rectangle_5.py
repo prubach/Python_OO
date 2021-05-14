@@ -26,17 +26,11 @@ def calculate_surface(par_a, par_b):
 
 r = Rectangle(5, 6)
 
-s1 = "abcd"
-s2 = s1
-s1 = s1.lower()
+
 
 # s1 = 333
 # s2 = s1
 # s1 = s1 + 2
-
-print(id(s1))
-print(id(s2))
-
 
 print(r.calculate_surface(7, 8))
 

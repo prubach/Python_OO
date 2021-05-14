@@ -23,9 +23,9 @@ class Rectangle:
 
     def __del__(self):
         Rectangle.num_rect -= 1
-        print('Destroying rectangle')
+        print('Destroying rectangle, left {} rectangles'.format(Rectangle.num_rect))
 
-
+#
 class RectangleFactory:
     def new_rect(self, a, b):
         return Rectangle(a, b)
@@ -33,10 +33,11 @@ class RectangleFactory:
 r = Rectangle(5, 6)
 print(r.count())
 r2 = Rectangle(45, 3)
-
+print(r2.count())
+print(r.count())
 rf = RectangleFactory()
 r3 = rf.new_rect(7, 78)
 print(r.count())
-print(r2.count())
+# print(r2.count())
 del r
 print(Rectangle.num_rect)
