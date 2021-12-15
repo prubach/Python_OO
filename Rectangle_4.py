@@ -35,22 +35,23 @@ class Square:
 r1 = Rectangle(2, 3)
 r2 = Rectangle(5, 6)
 
-q = r2 < r1
-print('is r2 < r1: ' + str(q))
+#q = r2 < r1
+#print('is r2 < r1: ' + str(q))
 
 r3 = r1 + r2
-s = Square()
-s.set_params(10, 10)
-
-r4 = r1 + s
-print(r4)
-
-q = s < r1
-print('is s < r1: ' + str(q))
-
-
-#print(r1)
-#print(r2)
-
-#print(r3)
-
+print(r3)
+# s = Square()
+# s.set_params(10, 10)
+#
+# r4 = r1 + s
+# print(r4)
+#
+# q = s < r1
+# print('is s < r1: ' + str(q))
+#
+#
+# #print(r1)
+# #print(r2)
+#
+# #print(r3)
+#
